@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFrameworks>netstandard2.0;netstandard2.1;net462;net48;net6.0;net8.0</TargetFrameworks>
-		<Version>3.0.1</Version>
+		<Version>3.0.2</Version>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<Authors>Joel Christner</Authors>
 		<Description>Simple URL matcher library allowing you to match based on explicit string or parameters</Description>
@@ -13,7 +13,7 @@
 		<RepositoryUrl>https://github.com/jchristn/UrlMatcher</RepositoryUrl>
 		<RepositoryType>github</RepositoryType>
 		<PackageTags>url match matcher parameter</PackageTags>
-		<PackageReleaseNotes>Refactor to support static and instance methods.</PackageReleaseNotes>
+		<PackageReleaseNotes>Performance optimizations, security fix for Parts property immutability, improved documentation.</PackageReleaseNotes>
 		<ApplicationIcon>assets\icon.ico</ApplicationIcon>
 		<Title>UrlMatcher</Title>
 		<PackageReadmeFile>README.md</PackageReadmeFile>

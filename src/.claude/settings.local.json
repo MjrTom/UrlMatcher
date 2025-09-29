@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Code/Misc/UrlMatcher/**)",
+      "Bash(dotnet build:*)",
+      "Bash(dotnet run:*)",
+      "Bash(AutomatedTest/bin/Debug/net8.0/AutomatedTest.exe)",
+      "Bash(src/AutomatedTest/bin/Debug/net8.0/AutomatedTest.exe)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
